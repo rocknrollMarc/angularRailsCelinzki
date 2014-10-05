@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'git_http/show'
+
   resources :widgets
 
   get 'taco_order/edit'

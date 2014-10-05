@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :widgets
+
   get 'taco_order/edit'
 
   get 'hello_angular/show'
